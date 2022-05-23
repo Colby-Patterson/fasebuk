@@ -13,10 +13,10 @@ const Post = (props) => {
           <strong><p>{props.name}</p></strong>
         </div>
         <p>{props.post}</p>
-        <p className="inline">Likes: {likes}</p>
-        <button className="likeButton" onClick={like}>Like</button>
-        <div className="commentDiv">
-          <button className="commentButton"
+        {/* <p className="inline">Likes: {likes}</p> */}
+        <button className="likeButton inline" onClick={like}>Like</button>
+        {/* <div> */}
+          <button className="commentButton inline"
             onClick={() => {
               setShowComments(!showComments);
             }}
@@ -24,7 +24,7 @@ const Post = (props) => {
             {showComments ? 'Hide Comments':'Show Comments'}
             </button>
             {showComments && <p>{props.comments}</p>}
-        </div>
+        {/* </div> */}
       </div>
     </div>  
   )

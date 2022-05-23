@@ -10,6 +10,7 @@ let users = [
   {id:6, name:"Eric", post:"Starting my new job today. Wish me luck!", initialLikes: 0},
   {id:7, name:"Debra", post:"What's everyone doing for Memorial Day weekend?", initialLikes: 0},
   {id:8, name:"Scott", post:"Any advice on where to find good mangoes?", initialLikes: 0},
+  {id:9, name:"Carl", post:"This is another test post", initialLikes: 0},
 ]
 
 function App() {
