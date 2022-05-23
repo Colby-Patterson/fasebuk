@@ -13,7 +13,7 @@ const Post = (props) => {
           <strong><p>{props.name}</p></strong>
         </div>
         <p>{props.post}</p>
-        {/* <p className="inline">Likes: {likes}</p> */}
+        <p className="likeCounter">Likes: {likes}</p>
         <button className="likeButton inline" onClick={like}>Like</button>
         {/* <div> */}
           <button className="commentButton inline"

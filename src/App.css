@@ -49,3 +49,8 @@ h1 {
 .commentDiv {
   margin-top: 5px;
 }
+
+.likeCounter {
+  display: block;
+  float: right;
+}

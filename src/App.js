@@ -11,6 +11,9 @@ let users = [
   {id:7, name:"Debra", post:"What's everyone doing for Memorial Day weekend?", initialLikes: 0},
   {id:8, name:"Scott", post:"Any advice on where to find good mangoes?", initialLikes: 0},
   {id:9, name:"Carl", post:"This is another test post", initialLikes: 0},
+  {id:10, name:"Daniele", post:"This is another test post", initialLikes: 0},
+  {id:11, name:"Arnold", post:"This is another test post", initialLikes: 0},
+  {id:12, name:"Anne", post:"This is another test post", initialLikes: 0},
 ]
 
 function App() {
@@ -23,7 +26,7 @@ function App() {
 
   return (
     <>
-      <h1>Fasebuk</h1>
+      <h1>My App</h1>
       {renderPosts()}
     </>
   );
