@@ -23,7 +23,11 @@ const Post = (props) => {
           >
             {showComments ? 'Hide Comments':'Show Comments'}
             </button>
-            {showComments && <p>{props.comments}</p>}
+            {showComments && 
+            <ul>
+              <li>{props.comments[0]}</li>
+              <li>{props.comments[1]}</li>
+            </ul>}
         {/* </div> */}
       </div>
     </div>  
