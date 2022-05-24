@@ -54,3 +54,7 @@ h1 {
   display: block;
   float: right;
 }
+
+li {
+  list-style-type: none;
+}
